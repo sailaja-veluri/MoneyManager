@@ -1,0 +1,181 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 13px;
+}
+.money-manager-container {
+  max-width: 90vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+@media (min-width: 768px) {
+  .money-manager-container {
+    max-width: 60vw;
+    justify-content: center;
+  }
+}
+
+.name-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  height: 40vh;
+
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-top-right-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+@media (min-width: 768px) {
+  .name-container {
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 20px;
+    height: 30vh;
+  }
+}
+
+.name {
+  font-size: 20px;
+  font-weight: bold;
+  color: #475569;
+}
+.wishes-para {
+  font-size: 13px;
+  font-weight: bold;
+  color: #475569;
+}
+
+@media (min-width: 768px) {
+  .name {
+    font-size: 30px;
+  }
+  .wishes-para {
+    font-size: 17px;
+  }
+}
+.money-mn-color {
+  color: #0b69ff;
+}
+.moneyDetails-container {
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 768px) {
+  .moneyDetails-container {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+.form-history-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+@media (min-width: 768px) {
+  .form-history-container {
+    flex-direction: row;
+    padding: 15px;
+  }
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #cbd5e1;
+  border-radius: 12px;
+  padding: 30px;
+  margin-bottom: 10px;
+}
+@media (min-width: 768px) {
+  .form-container {
+    margin-right: 30px;
+    flex-grow: 1;
+  }
+}
+
+.form-heading {
+  font-size: 20px;
+  font-weight: bold;
+  color: #475569;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.label-details {
+  color: #334155;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.input-title {
+  color: #334155;
+}
+.input-amt {
+  color: #334155;
+}
+.add-button {
+  height: 30px;
+  width: 70px;
+  border-radius: 7px;
+  background-color: #8b5cf6;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-size: 10px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border: white;
+  cursor: pointer;
+}
+.history-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-left: 0px;
+  border: 1px solid #cbd5e1;
+  border-radius: 12px;
+  padding-right: 10px;
+}
+@media (min-width: 768px) {
+  .history-container {
+    flex-grow: 1;
+  }
+}
+
+.history-heading {
+  font-size: 20px;
+  font-weight: bold;
+  color: #475569;
+  padding-left: 40px;
+}
+
+.history-table-header {
+  border: 1px solid #cbd5e1;
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px;
+  margin-bottom: 0px;
+}
+.header-style {
+  color: #475569;
+  font-size: 15px;
+  font-weight: bold;
+  margin-right: 35px;
+}
+.history-ul-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 0px;
+  list-style-type: none;
+  margin-top: 0px;
+}

@@ -1,0 +1,56 @@
+/* Write your CSS here */
+.money-card {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border-radius: 10px;
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+@media (min-width: 768px) {
+  .money-card {
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-left: 10px;
+  }
+}
+
+.bgColor-balance {
+  background-color: #ecfccb;
+  border: 1px solid #84cc16;
+}
+
+.bgColor-income {
+  background-color: #cffafe;
+  border: 1px solid #06b6d4;
+}
+
+.bgColor-expenses {
+  background-color: #ede9fe;
+  border: 1px solid #7c3aed;
+}
+
+.image-styles {
+  height: 70px;
+  width: 70px;
+  margin-top: 20px;
+}
+
+.msg-amt-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-left: 15px;
+  padding-top: 20px;
+}
+
+.heading-in-card {
+  font-size: 12px;
+  color: #7e858e;
+}
+
+.amt-in-card {
+  color: #7e858e;
+  margin-top: 0px;
+}
